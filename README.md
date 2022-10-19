@@ -17,7 +17,7 @@ mvn clean install
 ```
 java -jar target/GitMining-1.0-SNAPSHOT-jar-with-dependencies.jar [diretório_para_clonagem] [url_repositório][GitHub_Token]
 ```
-Exemple:
+Example:
 ```
 java -jar target/GitMining-1.0-SNAPSHOT-jar-with-dependencies.jar local "/media/gleiph/Gleiph dados/repositories/voldemort"
 ```
