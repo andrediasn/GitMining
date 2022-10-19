@@ -49,7 +49,7 @@ public class GitMining {
 
                     System.out.println("\n\n================================ Merges ==================================\n");
                     List<Merge> mergeList = GitCLI.getMerge(path);
-                    System.out.println("Total de Merges: " + mergeList.size());
+                    System.out.println("Total de Merges: " + mergeList.size() + "\n");
 
                     for (Merge merge : mergeList) {
                         System.out.println(merge.toString());
